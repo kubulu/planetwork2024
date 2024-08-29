@@ -20,6 +20,7 @@ export default function Home(props: any) {
                 <InnerContentPanel/>
 
             </div>
+            <InsightSection/>
             <ConntectSection/>
             <FooterSection/>
         </div>

@@ -8,6 +8,9 @@ import IndustrySection from "../components/industrySection/industrySection";
 import InsightSection from "../components/insightSection/insightSection";
 import ConntectSection from "../components/connectSection/conntectSection";
 import FooterSection from "../components/footerSection/footerSection";
+import ServicesSectionTwo from "../components/serviceSectionTwo/servicesSectionTwo";
+import ServicesSectionThree from "../components/serviceSectionThree/servicesSectionThree";
+import ClientSection from "../components/clientSection/clientSection";
 
 export default function Home(props: any) {
     return (
@@ -16,8 +19,11 @@ export default function Home(props: any) {
             <HeroImage/>
             <AboutSection/>
             <ServicesSection/>
-            <IndustrySection/>
-            <InsightSection/>
+            <ServicesSectionTwo/>
+            <ServicesSection/>
+            <ServicesSectionTwo/>
+            <ServicesSectionThree/>
+            <ClientSection/>
             <ConntectSection/>
             <FooterSection/>
         </div>

@@ -4,18 +4,17 @@ import Link from "next/link";
 const SolutionSection = (nav: any) => {
     return (
             <div className={styles.solutionSection}>
-                <div className={`row justify-content-center align-item-center`}>
-                    <div className={`col-md-5`}>
+                <div className={`row justify-content-between align-item-center`}>
+                    <div className={`col-md-6`}>
                         <div className={styles.solutionContent}>
-                            <h5>Solutions</h5>
                             <div>
-                                <h2>Audio/Visual</h2>
-                                <h3>We are dedicated to providing good connectivity and secure surroundings as per your needs</h3>
+                                <h2>ENHANCE YOUR CUSTOMER EXPERIENCE WITH DYNAMIC DIGITAL SIGNAGE SOLUTIONS.</h2>
+                                <p>Transform audience engagement through our cutting-edge digital signage technology. Ideal for retail, hospitality, healthcare, Government and corporate environments, our innovative solutions captivate, inform, and enhance communication with unparalleled versatility and dynamism.</p>
                             </div>
 
                         </div>
                     </div>
-                    <div className={`col-md-7`}>
+                    <div className={`col-md-5`}>
                         <div className={styles.solutionImage}>
                             <img src={`/images/solution-1.png`} width={`100%`} />
                         </div>
