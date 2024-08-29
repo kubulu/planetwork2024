@@ -1,0 +1,27 @@
+.servicesSection{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #ffffff;
+  .serviceContent{
+    h3{
+      font-weight: 300;
+      font-size: 32px;
+      padding-bottom: 20px;
+    }
+    p{
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+  }
+  .serviceContentCounter{
+    .block{
+      border-bottom: 1px solid #ffffff;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+    h2{
+      font-size: 48px;
+      font-weight: 100;
+    }
+  }
+}

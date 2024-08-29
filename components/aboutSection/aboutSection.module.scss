@@ -1,0 +1,19 @@
+.aboutSection{
+  background: linear-gradient(180deg, #0062FF 0%, #003B99 100%);
+  border-radius: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-weight: 200;
+  .aboutContent{
+    text-align: center;
+    color: #ffffff;
+  }
+  label{
+    letter-spacing: 2px;
+  }
+  h3{
+    font-size: 28px;
+    font-weight: 300;
+    padding-top: 10px;
+  }
+}

@@ -1,0 +1,25 @@
+.insightSection {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  h2{
+    color: #ffffff;
+  }
+  .insightBlock {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    span {
+      color: #829cc5;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      display: block;
+      font-size:13px;
+    }
+
+    p {
+      color: #ffffff;
+      font-size: 18px;
+      border-bottom: 3px solid #fff;
+      padding-bottom: 30px;
+    }
+  }
+}

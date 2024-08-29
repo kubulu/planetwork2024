@@ -1,0 +1,14 @@
+@import "themes/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+  font-family: "Sora";
+  background: #08162B;
+}
+
+.inner-page{
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 80px;
+  min-height: 500px;
+}

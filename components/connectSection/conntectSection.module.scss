@@ -1,0 +1,28 @@
+.connectSection{
+  background-size: 400% 400%;
+  border-radius: 0px 0px 30px 30px ;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+  position: relative;
+  top: 30px;
+  z-index: 1;
+  animation: gradientAnimation 15s ease infinite;
+  background: linear-gradient(12deg, #001C4A -7.71%, #57009A 47.98%, #001B46 220.37%);
+  h4{
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}

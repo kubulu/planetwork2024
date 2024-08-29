@@ -1,0 +1,10 @@
+.solutionSection{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #ffffff;
+  .solutionContent{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+}
