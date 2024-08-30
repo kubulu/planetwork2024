@@ -3,7 +3,7 @@ import styles from './clientSection.module.scss';
 import Link from "next/link";
 const ClientSection = (nav: any) => {
     return (
-            <div className={styles.clientBlock}>
+            <div id={`partner`} className={styles.clientBlock}>
                 <div className={`container`}>
                     <div className={`row justify-content-center align-items-center`}>
                         <div className={`col-8 text-center`}>

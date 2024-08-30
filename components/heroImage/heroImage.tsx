@@ -4,16 +4,15 @@ import Link from "next/link";
 const HeroImage = (nav: any) => {
     return (
             <div className={styles.heroImage}>
-                <div className={`container`}>
-                    <div className={`row h-100 justify-content-center align-item-center`}>
-                        <div className={`col-md-6`}>
-
-                        </div>
-                        <div className={`col-md-6`}>
-                            <h2>Network Cabling, Security & Connectivity Solutions </h2>
-                            <p>Structured Cabling Solutions for the Future of Your Business</p>
-                            <Link href={`/`} className={`btn btn-light`}> Explore More </Link>
-                        </div>
+                <video className={styles.video} autoPlay muted loop>
+                    <source src="/images/background.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <div className={styles.content}>
+                    <div className={`container`}>
+                        <h1>Network Cabling, Security & Connectivity Solutions </h1>
+                        <p>Structured Cabling Solutions for the Future of Your Business</p>
+                        <Link href={`/`} className={`btn btn-light`}>Get in Touch</Link>
                     </div>
                 </div>
             </div>

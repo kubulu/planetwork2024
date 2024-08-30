@@ -11,6 +11,7 @@ import FooterSection from "../components/footerSection/footerSection";
 import ServicesSectionTwo from "../components/serviceSectionTwo/servicesSectionTwo";
 import ServicesSectionThree from "../components/serviceSectionThree/servicesSectionThree";
 import ClientSection from "../components/clientSection/clientSection";
+import ContactSection from "../components/contactSection/contactSection";
 
 export default function Home(props: any) {
     return (
@@ -24,7 +25,7 @@ export default function Home(props: any) {
             <ServicesSectionTwo/>
             <ServicesSectionThree/>
             <ClientSection/>
-            <ConntectSection/>
+            <ContactSection/>
             <FooterSection/>
         </div>
     )

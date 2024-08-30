@@ -11,7 +11,7 @@ const ServicesSection = (nav: any) => {
         slidesToScroll: 1,
     };
     return (
-            <div className={styles.servicesSection}>
+            <div id={`product`} className={styles.servicesSection}>
                 <div className={`container`}>
                     <div className={`row justify-content-between align-items-center`}>
                         <div className={`col-md-5`}>

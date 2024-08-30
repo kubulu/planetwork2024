@@ -5,7 +5,7 @@ import Link from "next/link";
 const ServicesSectionThree = (nav: any) => {
 
     return (
-            <div className={styles.servicesSection}>
+            <div id={`service`} className={styles.servicesSection}>
                 <div className={`container`}>
                     <div className={`row justify-content-between align-items-center`}>
                         <div className={`col-md-6`}>

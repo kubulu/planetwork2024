@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './navigation.module.scss';
+import Link from "next/link";
 const Header = (nav: any) => {
     return (
         <div className={styles.mainNavigation}>
@@ -13,15 +14,14 @@ const Header = (nav: any) => {
                     </div>
 
                     <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                        <li><a href="#" className="nav-link px-4 ">About Us</a></li>
-                        <li><a href="#" className="nav-link px-4">Products</a></li>
-                        <li><a href="#" className="nav-link px-4">Services</a></li>
-                        <li><a href="#" className="nav-link px-4">Partners</a></li>
-                        <li><a href="#" className="nav-link px-4">Gallery</a></li>
+                        <li><Link href="#about" className="nav-link px-4 ">About Us</Link></li>
+                        <li><Link href="#product" className="nav-link px-4">Products</Link></li>
+                        <li><Link href="#service" className="nav-link px-4">Services</Link></li>
+                        <li><Link href="#partner" className="nav-link px-4">Partners</Link></li>
                     </ul>
 
                     <div className="col-md-3 text-end">
-                        <button type="button" className="btn btn-light">Contact Us</button>
+                        <Link href={`#contact`} className="btn btn-light text-black">Contact Us</Link>
                     </div>
                 </header>
             </div>

@@ -1,12 +1,16 @@
 .footerSection{
   background: #ffffff;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 10px;
   font-size: 13px;
+  .footerLogo{
+    margin-bottom: 20px;
+  }
   .social{
     ul{
       padding-left: 0px;
       margin-left: 0px;
+      margin-bottom: 0px;
       li{
         display: inline;
         padding-left: 10px;

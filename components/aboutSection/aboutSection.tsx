@@ -4,7 +4,7 @@ import Link from "next/link";
 import SolutionSection from "../solutionSection/solutionSection";
 const AboutSection = (nav: any) => {
     return (
-            <div className={styles.aboutSection}>
+            <div id={`about`} className={styles.aboutSection}>
                 <div className={`container`}>
                     <div className={styles.aboutContent}>
                         <div className={`row justify-content-center align-items-center`}>

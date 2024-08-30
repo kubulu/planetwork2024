@@ -1,0 +1,25 @@
+.contactSection{
+  background: #001B46;
+  min-height: 600px;
+  color: #ffffff;
+  padding-bottom: 40px;
+
+  h2{
+    font-size: 18px;
+  }
+  .address{
+    padding-top: 20px;
+    p{
+      font-size: 14px;
+      padding-right: 50px;
+    }
+  }
+  h6{
+    padding-top: 80px;
+  }
+  .contactCard{
+    label{
+      color: #000000;
+    }
+  }
+}
